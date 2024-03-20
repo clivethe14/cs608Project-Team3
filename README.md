@@ -1,4 +1,5 @@
 # Dijkstra's Algorithm using java
-Repository for Algotithms and Computing Theory class team Project
-Member - Min Jung
-Member - Nitish 
+An implementation of Dijkstra Algorithm using java for Algorithms and Computing Theory class Team Project.
+Members:
+Min Jung
+Nitish 
