@@ -23,8 +23,8 @@ from the public class, "Dijkstra." */
         <String, Integer>, to be added to it as points, while the String, "start", defines 
         a String type input for a String type representation of the initial point of 
         traversal (the root node). From this initial point, the shortest distances 
-        to the neighboring nodes will be printed out as a type String output, 
-        after traversal by the Dijkstra function. We will see this later on in the code. */
+        to all the neighboring nodes will be printed out as a type String output, 
+        after traversal by the Dijkstra function, which we will see later on in the code. */
         Map<String, Integer> distances = new HashMap<String, Integer>(); /* We define a new HashMap 
         object as a Map object named, "distances", of key-value pair type <String, Integer>,
         with no specific parameters. */
@@ -148,12 +148,12 @@ from the public class, "Dijkstra." */
         perhaps, making a void function call. */
     }
 
-    public static void main(String[] args) { // Here, we begin our main argument, and the implementationtype(implication) of the algorithm, dijkstra.
+    public static void main(String[] args) { // Here, we begin our main argument, and the implementation of the algorithm, dijkstra.
         Map<String, Map<String, Integer>> graph = new HashMap<>(); // First, we create and define a new HashMap object, as a Map object, "graph", with input parameters <String, Map<String, Integer>.
         graph.put("A", new HashMap<String, Integer>()); // Here, we create and insert four new node points, with the names "A", "B", "C", and "D", into the Map object, "graph". 
         // Each node point contains a key-value pair of type String, and a new value of type HashMap<String, Integer>() (new HashMap<String, Integer>());).
         // The graph contains all the node points which will be traversed by the Dijkstra algorithm. 
-        // Note that the construction and design of the node points are identical for each new node.
+        // Note that the construction and input parameters of the node points are identical for each new node.
         graph.put("B", new HashMap<String, Integer>()); // In this line, a new node point named "B", is created and inserted into the Map object, "graph".
         graph.put("C", new HashMap<String, Integer>()); // In this line, a new node point named "C", is created and inserted into the Map object, "graph".
         graph.put("D", new HashMap<String, Integer>()); // In this line, a new node point named "D", is created and inserted into the Map object, "graph".
