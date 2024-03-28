@@ -93,7 +93,7 @@ from the public class, "Dijkstra." */
                 As defined above, the return value is always type Integer, which corresponds to
                 the numerical distance, or as aptly defined in the name, the "weight", of the node. */
                 int distance = currentDistance + weight; /* Here, an integer named, "distance", is 
-                defined as the sum of the integers currentDistance and weight. This integer 
+                defined as the sum of the integers, "currentDistance" and "weight". This integer 
                 is defined here instead of earlier in the code because we want to see the name 
                 and value of the currentNode being pritned first, before the neighbor name 
                 and values are printed. Here, we see that the value of distance is 
@@ -149,7 +149,7 @@ from the public class, "Dijkstra." */
     }
 
     public static void main(String[] args) { // Here, we begin our main argument, and the implementation of the algorithm, dijkstra.
-        Map<String, Map<String, Integer>> graph = new HashMap<>(); // First, we create and define a new HashMap object, as a Map object, "graph", with input parameters <String, Map<String, Integer>.
+        Map<String, Map<String, Integer>> graph = new HashMap<>(); // First, we create and define a new HashMap object, as a Map object, "graph", with input parameters <String, Map<String, Integer>>.
         graph.put("A", new HashMap<String, Integer>()); // Here, we create and insert four new node points, with the names "A", "B", "C", and "D", into the Map object, "graph". 
         // Each node point contains a key-value pair of type String, and a new value of type HashMap<String, Integer>() (new HashMap<String, Integer>());).
         // The graph contains all the node points which will be traversed by the Dijkstra algorithm. 
