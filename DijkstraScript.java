@@ -96,7 +96,7 @@ from the public class, "Dijkstra." */
                 defined as the sum of the integers currentDistance and weight. This integer 
                 is defined here instead of earlier in the code because we want to see the name 
                 and value of the currentNode being pritned first, before the neighbor name 
-                and values are printed (bullshit). Here, we see that the value of distance is 
+                and values are printed. Here, we see that the value of distance is 
                 a sum of the integers currentDistance and weight. This is because Dijkstra's 
                 Algorithm only runs with nodes that have non-negative weights. */
 
