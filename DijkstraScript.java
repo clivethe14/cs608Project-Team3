@@ -93,26 +93,22 @@ from the public class, "Dijkstra." */
                 As defined above, the return value is always type Integer, which corresponds to
                 the numerical distance, or as aptly defined in the name, the "weight", of the node. */
                 int distance = currentDistance + weight; /* Here, an integer named, "distance", is 
-                defined as the sum of the integers, "currentDistance" and "weight". This integer 
+                defined as the sum of the integers, "currentDistance", and "weight". This integer 
                 is defined here instead of earlier in the code because we want to see the name 
                 and value of the currentNode being pritned first, before the neighbor name 
                 and values are printed. Here, we see that the value of distance is 
                 a sum of the integers currentDistance and weight. This is because Dijkstra's 
                 Algorithm only runs with nodes that have non-negative weights. */
 
-                /* If you remember the previous slides in the presentation (slide x),
-
-                Components: Nodes, Edges, and Weights
-
-                    Nodes: The points of intersection within a network.
-                    Edges: The relationships between the nodes within a network.
-                    Weights: The "cost" associated with the edge.
+                /* If you remember the previous slides in the presentation (slide x), 
+                Components are Nodes, Edges, and Weights; Nodes are The points of intersection 
+                within a network; Edges are The relationships between the nodes within a network; 
+                Weights are The "cost" associated with the edge. 
                 
-                Limitations of Dijkstra's Algorithm:
-                  The graph should be weighted.
-                  The weights should be non-negative.
+                The limitations of Djikstra’s algorithm are that the graph 
+                should be weighted and the weights should be non-negative. 
 
-                this explains the value of the integer, "distance", can be explained to be the 
+                This explains the value of the integer, "distance", which can be explained to be the 
                 sum of the integers "currentDistance" and "weight". Dijkstra's 
                 Algorithm runs only for weighted graphs, and weights of non-negative value.
                 Hence, every Map<String, Integer> object, "neighbor",
@@ -145,7 +141,7 @@ from the public class, "Dijkstra." */
         return distances; /* Here, we have the return state of the function of the public static 
         Map<String, Integer> object "dijkstra", which returns the Map<String, Integer> object, "distances".
         Note the code of the "dijkstra" function. Inputting parameters this way provides better ease than,
-        perhaps, making a void function call. */
+        perhaps, making a void function. */
     }
 
     public static void main(String[] args) { // Here, we begin our main argument, and the implementation of the algorithm, dijkstra.
@@ -245,7 +241,7 @@ Current Node being visited: D           // The distance from node "B" to node "C
                                         not the same as the distance from a node "Y" to a node "X".
                                         This is because in the traversal path, the weights of the nodes must be 
                                         accounted for when calculating the distance, as shown in the code in line (**).
-                                        Therefore, it cannot be assumed at the shortest path from the root node to 
+                                        Therefore, it cannot be assumed that the shortest path from the root node to 
                                         the destination node, is the same as the distance calculated traversing via iteration.
 
                                         // The algorithm traverses to node "D".
