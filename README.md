@@ -6,7 +6,7 @@ Members:
 <br>
 ->Min Jung
 <br>
-->Nitish 
+->Bala Nitish Akshay Kantinedi Selvaraj
 <br>
 ->Farham Khademi
 <br>
